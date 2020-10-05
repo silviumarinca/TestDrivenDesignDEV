@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDrivenDesign", "TestDrivenDesign\TestDrivenDesign.csproj", "{7A4BD00B-2EC1-4A38-B228-A6296EC492BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDrivenDesign", "TestDrivenDesign\TestDrivenDesign.csproj", "{7A4BD00B-2EC1-4A38-B228-A6296EC492BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{B8246932-31B1-4253-B2C3-4B8DBB8FB23A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{B8246932-31B1-4253-B2C3-4B8DBB8FB23A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterDesign", "BetterDesign\BetterDesign.csproj", "{16B1F3DF-94C7-4304-8E48-64FF40841DF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B8246932-31B1-4253-B2C3-4B8DBB8FB23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8246932-31B1-4253-B2C3-4B8DBB8FB23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8246932-31B1-4253-B2C3-4B8DBB8FB23A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B1F3DF-94C7-4304-8E48-64FF40841DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B1F3DF-94C7-4304-8E48-64FF40841DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B1F3DF-94C7-4304-8E48-64FF40841DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B1F3DF-94C7-4304-8E48-64FF40841DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
