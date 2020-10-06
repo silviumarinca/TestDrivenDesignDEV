@@ -8,7 +8,7 @@ namespace TradeProcessor
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             var inputs = new List<string>() { "empty-file.txt" };
             var originalConsoleOut = Console.Out;
             foreach(var input in inputs){
