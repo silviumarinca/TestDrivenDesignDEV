@@ -62,7 +62,8 @@ namespace TradeProcessor
                 lineCount++;
             }
 
-            using (var connection = new System.Data.SqlClient.SqlConnection(""))
+            using (var connection = new System
+                .Data.SqlClient.SqlConnection(@"Data Source=SILVIU\MSSQLSERVER2017;Initial Catalog=70-461;Integrated Security=True"))
             {
                 connection.Open();
                 using (var transaction = connection.BeginTransaction()) {
