@@ -12,15 +12,15 @@ namespace LiskovSubst
 
    public class ShippingCost {
 
-        public decimal CalculateShippingCost(float packageWeightInKilograms,
-            Size<float> packageDimensionsInInches,
-            RegionInfo destination)
-        {
-            if (packageWeightInKilograms <= 0f) throw new Exception();
+        //public decimal CalculateShippingCost(float packageWeightInKilograms,
+        //    Size<float> packageDimensionsInInches,
+        //    RegionInfo destination)
+        //{
+        //    if (packageWeightInKilograms <= 0f) throw new Exception();
 
-            return decimal.MinusOne;
+        //    return decimal.MinusOne;
 
-        }
+        //}
 
     }
 }
