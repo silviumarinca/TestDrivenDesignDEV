@@ -11,21 +11,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetterDesign", "BetterDesig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeProcessor", "TradeProcessor\TradeProcessor.csproj", "{0F365903-B7CD-4DF5-B777-5C2A8A0F4DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTradings", "TestTradings\TestTradings.csproj", "{0AACFA05-E1B2-4EB1-9589-7D8996106318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTradings", "TestTradings\TestTradings.csproj", "{0AACFA05-E1B2-4EB1-9589-7D8996106318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTradingGood", "TestTradingGood\TestTradingGood.csproj", "{8E319CA8-8759-47E3-AA8D-ECF7375AF22F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTradingGood", "TestTradingGood\TestTradingGood.csproj", "{8E319CA8-8759-47E3-AA8D-ECF7375AF22F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeProcessorRefactoring", "TradeProcessorRefactoring\TradeProcessorRefactoring.csproj", "{8A256600-D07B-4CE6-8930-929AB63B8BAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeProcessorRefactoring", "TradeProcessorRefactoring\TradeProcessorRefactoring.csproj", "{8A256600-D07B-4CE6-8930-929AB63B8BAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeProcessorWithAbstraction", "TradeProcessorWithAbstraction\TradeProcessorWithAbstraction.csproj", "{05CFAD76-A636-48FA-9963-EECF312C24D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeProcessorWithAbstraction", "TradeProcessorWithAbstraction\TradeProcessorWithAbstraction.csproj", "{05CFAD76-A636-48FA-9963-EECF312C24D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRPDecorator", "SRPDecorator\SRPDecorator.csproj", "{DB0FE81E-B0E6-4D68-9B6E-73F5D59AC96B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SRPDecorator", "SRPDecorator\SRPDecorator.csproj", "{DB0FE81E-B0E6-4D68-9B6E-73F5D59AC96B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{B2C4D0F4-5E7B-413B-850C-73E1BF1ADBA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{B2C4D0F4-5E7B-413B-850C-73E1BF1ADBA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateDecorator", "PredicateDecorator\PredicateDecorator.csproj", "{5D01C9A1-0ABA-44D4-849E-DD19BB105DD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredicateDecorator", "PredicateDecorator\PredicateDecorator.csproj", "{5D01C9A1-0ABA-44D4-849E-DD19BB105DD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingCalculator", "LoggingCalculator\LoggingCalculator.csproj", "{60278E68-6519-461C-AC0E-B1BB1A7583F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingCalculator", "LoggingCalculator\LoggingCalculator.csproj", "{60278E68-6519-461C-AC0E-B1BB1A7583F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyDecorator", "PropertyDecorator\PropertyDecorator.csproj", "{3505AE86-33C3-4325-9E9E-4AE5372FF977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDecorator", "EventDecorator\EventDecorator.csproj", "{445BF81C-D05E-4ADD-B071-084F243487CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubst", "LiskovSubst\LiskovSubst.csproj", "{36846353-7498-4EB3-B8B4-39C6D456BEBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{60278E68-6519-461C-AC0E-B1BB1A7583F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60278E68-6519-461C-AC0E-B1BB1A7583F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60278E68-6519-461C-AC0E-B1BB1A7583F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3505AE86-33C3-4325-9E9E-4AE5372FF977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3505AE86-33C3-4325-9E9E-4AE5372FF977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3505AE86-33C3-4325-9E9E-4AE5372FF977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3505AE86-33C3-4325-9E9E-4AE5372FF977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445BF81C-D05E-4ADD-B071-084F243487CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445BF81C-D05E-4ADD-B071-084F243487CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445BF81C-D05E-4ADD-B071-084F243487CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445BF81C-D05E-4ADD-B071-084F243487CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36846353-7498-4EB3-B8B4-39C6D456BEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36846353-7498-4EB3-B8B4-39C6D456BEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36846353-7498-4EB3-B8B4-39C6D456BEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36846353-7498-4EB3-B8B4-39C6D456BEBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
