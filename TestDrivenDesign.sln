@@ -27,11 +27,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredicateDecorator", "Predi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingCalculator", "LoggingCalculator\LoggingCalculator.csproj", "{60278E68-6519-461C-AC0E-B1BB1A7583F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyDecorator", "PropertyDecorator\PropertyDecorator.csproj", "{3505AE86-33C3-4325-9E9E-4AE5372FF977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyDecorator", "PropertyDecorator\PropertyDecorator.csproj", "{3505AE86-33C3-4325-9E9E-4AE5372FF977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDecorator", "EventDecorator\EventDecorator.csproj", "{445BF81C-D05E-4ADD-B071-084F243487CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventDecorator", "EventDecorator\EventDecorator.csproj", "{445BF81C-D05E-4ADD-B071-084F243487CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubst", "LiskovSubst\LiskovSubst.csproj", "{36846353-7498-4EB3-B8B4-39C6D456BEBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubst", "LiskovSubst\LiskovSubst.csproj", "{36846353-7498-4EB3-B8B4-39C6D456BEBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskowTest", "LiskowTest\LiskowTest.csproj", "{AA4CF9C7-28C8-4EFD-94CF-69D15DA9A149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{A4C07E49-55EF-4ACE-AC26-94457A2EEDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrincipleTest", "InterfaceSegregationPrincipleTest\InterfaceSegregationPrincipleTest.csproj", "{9C287736-7A8E-4763-9F3A-EC1333E81AE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +105,18 @@ Global
 		{36846353-7498-4EB3-B8B4-39C6D456BEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36846353-7498-4EB3-B8B4-39C6D456BEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36846353-7498-4EB3-B8B4-39C6D456BEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4CF9C7-28C8-4EFD-94CF-69D15DA9A149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4CF9C7-28C8-4EFD-94CF-69D15DA9A149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4CF9C7-28C8-4EFD-94CF-69D15DA9A149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4CF9C7-28C8-4EFD-94CF-69D15DA9A149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C07E49-55EF-4ACE-AC26-94457A2EEDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C07E49-55EF-4ACE-AC26-94457A2EEDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C07E49-55EF-4ACE-AC26-94457A2EEDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C07E49-55EF-4ACE-AC26-94457A2EEDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C287736-7A8E-4763-9F3A-EC1333E81AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C287736-7A8E-4763-9F3A-EC1333E81AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C287736-7A8E-4763-9F3A-EC1333E81AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C287736-7A8E-4763-9F3A-EC1333E81AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
