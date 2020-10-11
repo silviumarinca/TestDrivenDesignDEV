@@ -183,15 +183,28 @@ namespace InterfaceSegregationPrinciple
 
         public IEnumerable<TEntity> ReadAll()
         {
-            throw new NotImplementedException();
+            if (allCachedEntities == null)
+            {
+                allCachedEntities = decorated.ReadAll();
+            
+            }
+            return allCachedEntities;
         }
 
         public TEntity ReadOne(Guid identity)
         {
             var foundEntity = cachedEntities[identity];
             if (foundEntity == null) {
+                decorated.ReadOne(identity);
+
+                if (foundEntity != null)
+                {
+
+                    cachedEntities[identity] = foundEntity;
+                }
 
             }
+            return foundEntity;
         }
     }
 }
